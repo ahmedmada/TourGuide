@@ -4,6 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.basic.nanodegree.tourguide.fragments.Cairo;
 import com.basic.nanodegree.tourguide.fragments.London;
 import com.basic.nanodegree.tourguide.fragments.Paris;
 import com.basic.nanodegree.tourguide.fragments.Roma;
@@ -33,6 +34,9 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
             case 2:
                 Roma tab3 = new Roma();
                 return tab3;
+            case 3:
+                Cairo tab4 = new Cairo();
+                return tab4;
             default:
                 return null;
         }

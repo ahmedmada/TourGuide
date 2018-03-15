@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.addTab(tabLayout.newTab().setText("Paris"));
         tabLayout.addTab(tabLayout.newTab().setText("London"));
         tabLayout.addTab(tabLayout.newTab().setText("Roma"));
+        tabLayout.addTab(tabLayout.newTab().setText("Cairo"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
